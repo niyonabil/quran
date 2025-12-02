@@ -1,0 +1,502 @@
+[
+    {
+        "name": "Mecca",
+        "country": "SA",
+        "label": "Mecca, Saudi Arabia"
+    },
+    {
+        "name": "Medina",
+        "country": "SA",
+        "label": "Medina, Saudi Arabia"
+    },
+    {
+        "name": "Riyadh",
+        "country": "SA",
+        "label": "Riyadh, Saudi Arabia"
+    },
+    {
+        "name": "Jeddah",
+        "country": "SA",
+        "label": "Jeddah, Saudi Arabia"
+    },
+    {
+        "name": "Cairo",
+        "country": "EG",
+        "label": "Cairo, Egypt"
+    },
+    {
+        "name": "Alexandria",
+        "country": "EG",
+        "label": "Alexandria, Egypt"
+    },
+    {
+        "name": "Istanbul",
+        "country": "TR",
+        "label": "Istanbul, Turkey"
+    },
+    {
+        "name": "Ankara",
+        "country": "TR",
+        "label": "Ankara, Turkey"
+    },
+    {
+        "name": "Jakarta",
+        "country": "ID",
+        "label": "Jakarta, Indonesia"
+    },
+    {
+        "name": "Surabaya",
+        "country": "ID",
+        "label": "Surabaya, Indonesia"
+    },
+    {
+        "name": "Karachi",
+        "country": "PK",
+        "label": "Karachi, Pakistan"
+    },
+    {
+        "name": "Lahore",
+        "country": "PK",
+        "label": "Lahore, Pakistan"
+    },
+    {
+        "name": "Islamabad",
+        "country": "PK",
+        "label": "Islamabad, Pakistan"
+    },
+    {
+        "name": "Dhaka",
+        "country": "BD",
+        "label": "Dhaka, Bangladesh"
+    },
+    {
+        "name": "Tehran",
+        "country": "IR",
+        "label": "Tehran, Iran"
+    },
+    {
+        "name": "Baghdad",
+        "country": "IQ",
+        "label": "Baghdad, Iraq"
+    },
+    {
+        "name": "Casablanca",
+        "country": "MA",
+        "label": "Casablanca, Morocco"
+    },
+    {
+        "name": "Rabat",
+        "country": "MA",
+        "label": "Rabat, Morocco"
+    },
+    {
+        "name": "Fes",
+        "country": "MA",
+        "label": "Fes, Morocco"
+    },
+    {
+        "name": "Marrakech",
+        "country": "MA",
+        "label": "Marrakech, Morocco"
+    },
+    {
+        "name": "Tangier",
+        "country": "MA",
+        "label": "Tangier, Morocco"
+    },
+    {
+        "name": "Algiers",
+        "country": "DZ",
+        "label": "Algiers, Algeria"
+    },
+    {
+        "name": "Oran",
+        "country": "DZ",
+        "label": "Oran, Algeria"
+    },
+    {
+        "name": "Tunis",
+        "country": "TN",
+        "label": "Tunis, Tunisia"
+    },
+    {
+        "name": "Sfax",
+        "country": "TN",
+        "label": "Sfax, Tunisia"
+    },
+    {
+        "name": "Tripoli",
+        "country": "LY",
+        "label": "Tripoli, Libya"
+    },
+    {
+        "name": "Khartoum",
+        "country": "SD",
+        "label": "Khartoum, Sudan"
+    },
+    {
+        "name": "Amman",
+        "country": "JO",
+        "label": "Amman, Jordan"
+    },
+    {
+        "name": "Beirut",
+        "country": "LB",
+        "label": "Beirut, Lebanon"
+    },
+    {
+        "name": "Damascus",
+        "country": "SY",
+        "label": "Damascus, Syria"
+    },
+    {
+        "name": "Jerusalem",
+        "country": "PS",
+        "label": "Jerusalem, Palestine"
+    },
+    {
+        "name": "Gaza",
+        "country": "PS",
+        "label": "Gaza, Palestine"
+    },
+    {
+        "name": "Ramallah",
+        "country": "PS",
+        "label": "Ramallah, Palestine"
+    },
+    {
+        "name": "Kuwait City",
+        "country": "KW",
+        "label": "Kuwait City, Kuwait"
+    },
+    {
+        "name": "Doha",
+        "country": "QA",
+        "label": "Doha, Qatar"
+    },
+    {
+        "name": "Manama",
+        "country": "BH",
+        "label": "Manama, Bahrain"
+    },
+    {
+        "name": "Muscat",
+        "country": "OM",
+        "label": "Muscat, Oman"
+    },
+    {
+        "name": "Abu Dhabi",
+        "country": "AE",
+        "label": "Abu Dhabi, UAE"
+    },
+    {
+        "name": "Dubai",
+        "country": "AE",
+        "label": "Dubai, UAE"
+    },
+    {
+        "name": "Sharjah",
+        "country": "AE",
+        "label": "Sharjah, UAE"
+    },
+    {
+        "name": "Sana'a",
+        "country": "YE",
+        "label": "Sana'a, Yemen"
+    },
+    {
+        "name": "Kuala Lumpur",
+        "country": "MY",
+        "label": "Kuala Lumpur, Malaysia"
+    },
+    {
+        "name": "Kabul",
+        "country": "AF",
+        "label": "Kabul, Afghanistan"
+    },
+    {
+        "name": "Tashkent",
+        "country": "UZ",
+        "label": "Tashkent, Uzbekistan"
+    },
+    {
+        "name": "Paris",
+        "country": "FR",
+        "label": "Paris, France"
+    },
+    {
+        "name": "Marseille",
+        "country": "FR",
+        "label": "Marseille, France"
+    },
+    {
+        "name": "Lyon",
+        "country": "FR",
+        "label": "Lyon, France"
+    },
+    {
+        "name": "Lille",
+        "country": "FR",
+        "label": "Lille, France"
+    },
+    {
+        "name": "Nice",
+        "country": "FR",
+        "label": "Nice, France"
+    },
+    {
+        "name": "Toulouse",
+        "country": "FR",
+        "label": "Toulouse, France"
+    },
+    {
+        "name": "Bordeaux",
+        "country": "FR",
+        "label": "Bordeaux, France"
+    },
+    {
+        "name": "London",
+        "country": "GB",
+        "label": "London, UK"
+    },
+    {
+        "name": "Birmingham",
+        "country": "GB",
+        "label": "Birmingham, UK"
+    },
+    {
+        "name": "Manchester",
+        "country": "GB",
+        "label": "Manchester, UK"
+    },
+    {
+        "name": "Berlin",
+        "country": "DE",
+        "label": "Berlin, Germany"
+    },
+    {
+        "name": "Munich",
+        "country": "DE",
+        "label": "Munich, Germany"
+    },
+    {
+        "name": "Frankfurt",
+        "country": "DE",
+        "label": "Frankfurt, Germany"
+    },
+    {
+        "name": "Hamburg",
+        "country": "DE",
+        "label": "Hamburg, Germany"
+    },
+    {
+        "name": "Brussels",
+        "country": "BE",
+        "label": "Brussels, Belgium"
+    },
+    {
+        "name": "Antwerp",
+        "country": "BE",
+        "label": "Antwerp, Belgium"
+    },
+    {
+        "name": "Amsterdam",
+        "country": "NL",
+        "label": "Amsterdam, Netherlands"
+    },
+    {
+        "name": "Rotterdam",
+        "country": "NL",
+        "label": "Rotterdam, Netherlands"
+    },
+    {
+        "name": "Madrid",
+        "country": "ES",
+        "label": "Madrid, Spain"
+    },
+    {
+        "name": "Barcelona",
+        "country": "ES",
+        "label": "Barcelona, Spain"
+    },
+    {
+        "name": "Rome",
+        "country": "IT",
+        "label": "Rome, Italy"
+    },
+    {
+        "name": "Milan",
+        "country": "IT",
+        "label": "Milan, Italy"
+    },
+    {
+        "name": "Vienna",
+        "country": "AT",
+        "label": "Vienna, Austria"
+    },
+    {
+        "name": "Zurich",
+        "country": "CH",
+        "label": "Zurich, Switzerland"
+    },
+    {
+        "name": "Geneva",
+        "country": "CH",
+        "label": "Geneva, Switzerland"
+    },
+    {
+        "name": "Moscow",
+        "country": "RU",
+        "label": "Moscow, Russia"
+    },
+    {
+        "name": "New York",
+        "country": "US",
+        "label": "New York, USA"
+    },
+    {
+        "name": "Los Angeles",
+        "country": "US",
+        "label": "Los Angeles, USA"
+    },
+    {
+        "name": "Chicago",
+        "country": "US",
+        "label": "Chicago, USA"
+    },
+    {
+        "name": "Houston",
+        "country": "US",
+        "label": "Houston, USA"
+    },
+    {
+        "name": "Toronto",
+        "country": "CA",
+        "label": "Toronto, Canada"
+    },
+    {
+        "name": "Montreal",
+        "country": "CA",
+        "label": "Montreal, Canada"
+    },
+    {
+        "name": "Vancouver",
+        "country": "CA",
+        "label": "Vancouver, Canada"
+    },
+    {
+        "name": "Sydney",
+        "country": "AU",
+        "label": "Sydney, Australia"
+    },
+    {
+        "name": "Melbourne",
+        "country": "AU",
+        "label": "Melbourne, Australia"
+    },
+    {
+        "name": "Tokyo",
+        "country": "JP",
+        "label": "Tokyo, Japan"
+    },
+    {
+        "name": "Seoul",
+        "country": "KR",
+        "label": "Seoul, South Korea"
+    },
+    {
+        "name": "Beijing",
+        "country": "CN",
+        "label": "Beijing, China"
+    },
+    {
+        "name": "Shanghai",
+        "country": "CN",
+        "label": "Shanghai, China"
+    },
+    {
+        "name": "Mumbai",
+        "country": "IN",
+        "label": "Mumbai, India"
+    },
+    {
+        "name": "Delhi",
+        "country": "IN",
+        "label": "Delhi, India"
+    },
+    {
+        "name": "Bangkok",
+        "country": "TH",
+        "label": "Bangkok, Thailand"
+    },
+    {
+        "name": "Singapore",
+        "country": "SG",
+        "label": "Singapore, Singapore"
+    },
+    {
+        "name": "Lagos",
+        "country": "NG",
+        "label": "Lagos, Nigeria"
+    },
+    {
+        "name": "Abuja",
+        "country": "NG",
+        "label": "Abuja, Nigeria"
+    },
+    {
+        "name": "Johannesburg",
+        "country": "ZA",
+        "label": "Johannesburg, South Africa"
+    },
+    {
+        "name": "Cape Town",
+        "country": "ZA",
+        "label": "Cape Town, South Africa"
+    },
+    {
+        "name": "Nairobi",
+        "country": "KE",
+        "label": "Nairobi, Kenya"
+    },
+    {
+        "name": "Dakar",
+        "country": "SN",
+        "label": "Dakar, Senegal"
+    },
+    {
+        "name": "Abidjan",
+        "country": "CI",
+        "label": "Abidjan, Ivory Coast"
+    },
+    {
+        "name": "Accra",
+        "country": "GH",
+        "label": "Accra, Ghana"
+    },
+    {
+        "name": "Bamako",
+        "country": "ML",
+        "label": "Bamako, Mali"
+    },
+    {
+        "name": "Niamey",
+        "country": "NE",
+        "label": "Niamey, Niger"
+    },
+    {
+        "name": "Ouagadougou",
+        "country": "BF",
+        "label": "Ouagadougou, Burkina Faso"
+    },
+    {
+        "name": "Conakry",
+        "country": "GN",
+        "label": "Conakry, Guinea"
+    },
+    {
+        "name": "Nouakchott",
+        "country": "MR",
+        "label": "Nouakchott, Mauritania"
+    }
+]
