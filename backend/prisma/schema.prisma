@@ -18,6 +18,7 @@ model User {
   prayerSettings PrayerSettings?
   favorites      Favorite[]
   readingHistory ReadingHistory[]
+  adhanSetting   AdhanSetting?
 
   @@map("users")
 }
@@ -69,4 +70,18 @@ model DonationMethod {
   createdAt   DateTime @default(now())
 
   @@map("donation_methods")
+}
+
+model AdhanSetting {
+  userId       String @id
+  defaultAdhan String @default("makkah")
+  fajrAdhan    String?
+  dhuhrAdhan   String?
+  asrAdhan     String?
+  maghribAdhan String?
+  ishaAdhan    String?
+  
+  user User @relation(fields: [userId], references: [id])
+
+  @@map("adhan_settings")
 }
