@@ -8,6 +8,7 @@ import { PrayerModule } from './prayer/prayer.module';
 import { UserModule } from './user/user.module';
 import { AdminModule } from './admin/admin.module';
 import { DonationsModule } from './donations/donations.module';
+import { VersionModule } from './version/version.module';
 import { PrismaService } from './prisma.service';
 
 @Module({
@@ -19,6 +20,7 @@ import { PrismaService } from './prisma.service';
     UserModule,
     AdminModule,
     DonationsModule,
+    VersionModule,
   ],
   controllers: [AppController],
   providers: [AppService, PrismaService],
