@@ -57,3 +57,16 @@ model ReadingHistory {
 
   @@map("reading_history")
 }
+
+model DonationMethod {
+  id          String   @id @default(uuid())
+  name        String
+  description String?
+  identifier  String
+  type        String   // "link", "copy", "phone"
+  icon        String?
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+
+  @@map("donation_methods")
+}

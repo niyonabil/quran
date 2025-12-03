@@ -7,6 +7,7 @@ import { QuranModule } from './quran/quran.module';
 import { PrayerModule } from './prayer/prayer.module';
 import { UserModule } from './user/user.module';
 import { AdminModule } from './admin/admin.module';
+import { DonationsModule } from './donations/donations.module';
 import { PrismaService } from './prisma.service';
 
 @Module({
@@ -17,6 +18,7 @@ import { PrismaService } from './prisma.service';
     PrayerModule,
     UserModule,
     AdminModule,
+    DonationsModule,
   ],
   controllers: [AppController],
   providers: [AppService, PrismaService],
