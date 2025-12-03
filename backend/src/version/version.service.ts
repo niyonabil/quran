@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma.service';
 
-interface VersionCheckResponse {
+export interface VersionCheckResponse {
     updateAvailable: boolean;
     isForced: boolean;
     latestVersion?: string;
