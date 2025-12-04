@@ -85,3 +85,23 @@ model AdhanSetting {
 
   @@map("adhan_settings")
 }
+
+model AppVersion {
+  id          String   @id @default(uuid())
+  version     String   @unique
+  buildNumber Int
+  forceUpdate Boolean  @default(false)
+  description String?
+  createdAt   DateTime @default(now())
+  
+  @@map("app_versions")
+}
+
+model GlobalSetting {
+  key         String   @id
+  value       String
+  description String?
+  updatedAt   DateTime @updatedAt
+  
+  @@map("global_settings")
+}

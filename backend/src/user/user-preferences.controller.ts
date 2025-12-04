@@ -22,13 +22,13 @@ export class UserPreferencesController {
     constructor(private readonly preferencesService: UserPreferencesService) { }
 
     @Get('adhan')
-    async getAdhanPreferences(@Request() req) {
+    async getAdhanPreferences(@Request() req: any) {
         return this.preferencesService.getAdhanPreferences(req.user.userId);
     }
 
     @Put('adhan')
     async updateAdhanPreferences(
-        @Request() req,
+        @Request() req: any,
         @Body() preferences: AdhanPreferences,
     ) {
         return this.preferencesService.updateAdhanPreferences(
@@ -38,13 +38,13 @@ export class UserPreferencesController {
     }
 
     @Get('theme')
-    async getThemePreferences(@Request() req) {
+    async getThemePreferences(@Request() req: any) {
         return this.preferencesService.getThemePreferences(req.user.userId);
     }
 
     @Put('theme')
     async updateThemePreferences(
-        @Request() req,
+        @Request() req: any,
         @Body() preferences: ThemePreferences,
     ) {
         return this.preferencesService.updateThemePreferences(
