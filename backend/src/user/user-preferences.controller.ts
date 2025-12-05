@@ -2,6 +2,13 @@ import { Controller, Get, Put, Body, UseGuards, Request } from '@nestjs/common';
 import { UserPreferencesService } from './user-preferences.service';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 
+interface RequestWithUser extends Request {
+    user: {
+        userId: string;
+        email: string;
+    };
+}
+
 interface AdhanPreferences {
     defaultAdhan?: string;
     fajrAdhan?: string;
@@ -22,13 +29,13 @@ export class UserPreferencesController {
     constructor(private readonly preferencesService: UserPreferencesService) { }
 
     @Get('adhan')
-    async getAdhanPreferences(@Request() req: any) {
+    async getAdhanPreferences(@Request() req: RequestWithUser) {
         return this.preferencesService.getAdhanPreferences(req.user.userId);
     }
 
     @Put('adhan')
     async updateAdhanPreferences(
-        @Request() req: any,
+        @Request() req: RequestWithUser,
         @Body() preferences: AdhanPreferences,
     ) {
         return this.preferencesService.updateAdhanPreferences(
@@ -38,13 +45,13 @@ export class UserPreferencesController {
     }
 
     @Get('theme')
-    async getThemePreferences(@Request() req: any) {
+    async getThemePreferences(@Request() req: RequestWithUser) {
         return this.preferencesService.getThemePreferences(req.user.userId);
     }
 
     @Put('theme')
     async updateThemePreferences(
-        @Request() req: any,
+        @Request() req: RequestWithUser,
         @Body() preferences: ThemePreferences,
     ) {
         return this.preferencesService.updateThemePreferences(

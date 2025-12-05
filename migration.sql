@@ -1,4 +1,4 @@
--- Fix for app_versions and global_settings
+/* Fix for app_versions and global_settings */
 DROP TABLE IF EXISTS "app_versions";
 DROP TABLE IF EXISTS "global_settings";
 
@@ -22,7 +22,7 @@ CREATE TABLE "global_settings" (
     CONSTRAINT "global_settings_pkey" PRIMARY KEY ("key")
 );
 
--- Azkar Table
+/* Azkar Table */
 DROP TABLE IF EXISTS "azkar";
 CREATE TABLE "azkar" (
     "id" UUID DEFAULT gen_random_uuid() PRIMARY KEY,
